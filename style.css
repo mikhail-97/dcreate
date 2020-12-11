@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Lora";
+    src: url("./Lora-VariableFont_wght.ttf") format("opentype")
+   }
+html {
+    background-color:#c6a7a4;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-section {
+    border-right: 1px solid black;
+    height: 100%;
+    flex: 1;
+    font-family: "Lora";
+    position: relative;
+}
+
+.main-section:last-child {
+    border: none;
+}
+.letter {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 300px;
+    justify-content: center;
+}
+.i-letter {
+    bottom: -6%;
+    transform: rotate(-15deg);
+}
+.s-letter {
+    top: -20%;
+}
+.a-letter {
+    bottom: -25%;
+}
+.section-number {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.photo-section {
+    background: url("misha.jpg");
+    background-size: cover;
+}
